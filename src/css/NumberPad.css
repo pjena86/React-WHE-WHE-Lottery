@@ -1,0 +1,68 @@
+    .Middle-pane {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+        row-gap: 5px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: mediumblue;
+    }
+
+    /* .Middle-pane .span-2
+    {   
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row:4;
+    size: 160px;
+
+    } */
+
+    .Middle-pane .num-button {
+        /* background-color: black; */
+       
+        align-items: center;
+        flex-wrap: wrap;
+        border-color: whitesmoke;
+        background-color: black;
+        border-width: thick;
+        height: 100px;
+        width: 100px;
+        font-size: 30px;
+        color: yellow;
+        size: 80px;
+    }
+
+    .select-button {
+        /* background-color: black; */
+        border-color: red;
+        background-color: lightslategrey;
+        border-width: thick;
+        height: 100px;
+        width: 100px;
+        font-size: 30px;
+        color: yellow;
+        size: 80px;
+        
+    }
+
+    /* .span-2 {
+        grid-column-start: 3;
+    grid-column-end: 4; 
+        grid-column: 3/4;
+    } */
+
+    /* .span-3 {
+        grid-column-start: 5;
+        grid-column-end: 6;
+    } */
+
+
+    /* .Middle-pane > .num-button:nth-child(21)
+    {   
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row:4;
+    size: 160px;
+
+    } */

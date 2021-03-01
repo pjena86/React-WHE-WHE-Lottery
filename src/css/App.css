@@ -1,0 +1,34 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .root {
+        display: flex;
+        flex-direction: column;
+      }
+
+    .whe-Body-section {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 80px auto;
+        grid-auto-rows: minmax(100px, auto);
+        column-gap: 5px;
+        row-gap: 5px;
+        height: 80vh;
+        /* background-color: yellow; */
+    }
+        .whe-Body-section > header{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row: 1;
+            grid: 0%;
+
+        }
+        
+
+    body,
+    html {
+        background-color: rgb(185, 139, 40)
+    }
+

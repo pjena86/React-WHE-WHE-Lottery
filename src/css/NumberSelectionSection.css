@@ -1,0 +1,43 @@
+    Right-Pane {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+        display: flex;
+        /* align-items: flex-end;
+        justify-content: flex-end; */
+        font-size: xx-large;   
+
+         
+    }
+
+    .select-button {
+        background-color: black;
+        border-color: red;
+        background-color: lightslategrey;
+        border-width: thick;
+        height: 100px;
+        width: 100px;
+        font-size: 30px;
+        color: yellow;
+        size: 80px;
+        
+    }
+
+    #below {
+        /* position: fixed;
+    align-content: end; */
+        text-align: end;
+        text-align-last: left;
+        text-align: unset;
+        justify-self: self-end;
+        align-self: flex-end;
+    }
+
+    .Right-Pane p{
+        padding: auto;
+        font-size: xx-large;
+    }
+
